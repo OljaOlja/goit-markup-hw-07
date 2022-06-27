@@ -18,6 +18,9 @@
 .about__item {
   position: relative;
   overflow: visible;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .about__item-overlay {
@@ -35,8 +38,4 @@
   text-transform: uppercase;
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
-}
-
-.about__item:not(:last-child) {
-  margin-right: 30px;
 }
